@@ -15,6 +15,6 @@
     "minimum-stability": "stable",
     "require": {
         "php": ">=7.4.0",
-        "symfony/http-client": "^5.4"
+        "symfony/http-client": ">=4.0.0"
     }
 }
