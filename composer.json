@@ -1,5 +1,5 @@
 {
-    "name": "naitsirch/churchtools-php-adapter",
+    "name": "naitsirch/churchtools-api-adapter",
     "description": "Tiny PHP adapter for the ChurchTools' REST API",
     "type": "library",
     "license": "GPLv3",
@@ -9,8 +9,12 @@
             "email": "naitsirch@e.mail.de"
         }
     ],
+    "autoload": {
+        "psr-4": { "Naitsirch\\ChurchTools\\Api\\": "src/" }
+    },
     "minimum-stability": "stable",
     "require": {
+        "php": ">=7.4.0",
         "psr/http-client": "^1.0"
     }
 }
